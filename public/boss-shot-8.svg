@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="44" height="44" viewBox="0 0 44 44" fill="none">
+  <defs><radialGradient id="energy" cx="0" cy="0" r="1" gradientTransform="translate(20 18) rotate(90) scale(24)">
+    <stop stop-color="#ffffff"/><stop offset="0.38" stop-color="#fff9df"/><stop offset="1" stop-color="#ffdf70"/>
+  </radialGradient></defs>
+  <circle cx="22" cy="22" r="21" fill="#ffdf70" opacity="0.23"/>
+  <g fill="url(#energy)" stroke="#fff9df" stroke-width="2"><path d="m22 3 9 12 10 7-10 7-9 12-9-12-10-7 10-7 9-12Z"/></g>
+  <circle cx="22" cy="22" r="6" fill="#ffffff"/>
+</svg>

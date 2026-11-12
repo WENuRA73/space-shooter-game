@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="72" height="72" viewBox="0 0 72 72" fill="none">
+  <defs>
+    <linearGradient id="charge" x1="36" y1="5" x2="36" y2="67" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#fff4a9"/><stop offset="0.55" stop-color="#ffc451"/><stop offset="1" stop-color="#d5752c"/>
+    </linearGradient>
+  </defs>
+  <path d="M36 3 69 36 36 69 3 36 36 3Z" fill="#ffd866" opacity="0.24"/>
+  <path d="M36 7 65 36 36 65 7 36 36 7Z"
+    fill="url(#charge)" stroke="#fff4c0" stroke-width="3" stroke-linejoin="round"/>
+  <path d="M36 13 57 36 36 59 15 36l21-23Z" fill="#804335" stroke="#ffe69d" stroke-width="2"/>
+  <path d="M41 19 25 39h11l-5 15 17-23H37l4-12Z" fill="#fff8d6"/>
+  <path d="M19 27h8m-10 9h6m30-9h-8m10 9h-6" stroke="#ffe48c" stroke-width="3" stroke-linecap="round"/>
+</svg>

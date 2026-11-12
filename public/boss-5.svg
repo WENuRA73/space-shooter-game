@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="320" height="232" viewBox="0 0 320 232" fill="none">
+  <defs>
+    <linearGradient id="armor" x1="160" y1="8" x2="160" y2="224" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#fff0cd"/><stop offset="0.45" stop-color="#ffa45c"/><stop offset="1" stop-color="#873d29"/>
+    </linearGradient>
+    <radialGradient id="core" cx="0" cy="0" r="1" gradientTransform="translate(155 88) rotate(90) scale(58)">
+      <stop stop-color="#ffffff"/><stop offset="0.45" stop-color="#fff0cd"/><stop offset="1" stop-color="#ffa45c"/>
+    </radialGradient>
+  </defs>
+  <path d="M160 17 204 34 275 14 312 74 269 130 224 155 192 220H128L96 155 51 130 8 74 45 14 116 34Z" fill="url(#armor)" stroke="#fff0cd" stroke-width="5" stroke-linejoin="round"/>
+  <path d="M51 42 112 56 120 107 72 139 27 89 51 42Zm218 0-61 14-8 51 48 32 45-50-24-47Z"
+    fill="#873d29" stroke="#ffa45c" stroke-width="4" stroke-linejoin="round"/>
+  <path d="M160 32 216 67l-3 72-29 71h-48l-29-71-3-72 56-35Z"
+    fill="#873d29" stroke="#fff0cd" stroke-width="4" stroke-linejoin="round"/>
+  <g fill="url(#core)" stroke="#fff0cd" stroke-width="3" stroke-linejoin="round"><path d="M160 52c30 32 36 50 0 86-36-36-30-54 0-86Z"/><path d="M160 92c11 13 12 25 0 36-12-11-11-23 0-36Z" fill="#873d29"/></g>
+  <path d="M60 76h39m122 0h39M108 176h28m48 0h28" stroke="#fff0cd" stroke-width="5" stroke-linecap="round"/>
+  <path d="M128 198h64l-13 20h-38l-13-20Z" fill="#ffa45c" stroke="#fff0cd" stroke-width="3"/>
+</svg>

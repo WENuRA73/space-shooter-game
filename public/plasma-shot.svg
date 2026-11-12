@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="36" height="56" viewBox="0 0 36 56" fill="none">
+  <defs><radialGradient id="plasma" cx="0" cy="0" r="1" gradientTransform="translate(18 27) rotate(90) scale(25)">
+    <stop stop-color="#ffffff"/><stop offset="0.35" stop-color="#b8f6ff"/><stop offset="1" stop-color="#3a84ff"/>
+  </radialGradient></defs>
+  <path d="M18 2 29 15 33 35 18 54 3 35 7 15 18 2Z" fill="#4b9bff" opacity="0.35"/>
+  <path d="M18 7 28 20v16L18 49 8 36V20L18 7Z" fill="url(#plasma)" stroke="#d5f8ff" stroke-width="2"/>
+  <circle cx="18" cy="28" r="6" fill="#ffffff"/>
+</svg>

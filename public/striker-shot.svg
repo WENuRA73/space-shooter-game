@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="28" height="48" viewBox="0 0 28 48" fill="none">
+  <defs>
+    <linearGradient id="dart" x1="14" y1="4" x2="14" y2="46" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#fff1aa"/><stop offset="0.5" stop-color="#ffae45"/><stop offset="1" stop-color="#e75d32"/>
+    </linearGradient>
+  </defs>
+  <path d="m14 4 11 13-6 4 6 8-11 16L3 29l6-8-6-4L14 4Z"
+    fill="url(#dart)" stroke="#fff0bc" stroke-width="2" stroke-linejoin="round"/>
+  <path d="m14 13 5 16-5 10-5-10 5-16Z" fill="#fff8de"/>
+</svg>

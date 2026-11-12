@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="144" height="124" viewBox="0 0 144 124" fill="none">
+  <defs>
+    <linearGradient id="shell" x1="72" y1="7" x2="72" y2="113" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#d0b8ff"/><stop offset="0.5" stop-color="#8a63d1"/><stop offset="1" stop-color="#503477"/>
+    </linearGradient>
+    <radialGradient id="core" cx="0" cy="0" r="1" gradientTransform="translate(72 57) rotate(90) scale(24)">
+      <stop stop-color="#ffffff"/><stop offset="0.5" stop-color="#e9caff"/><stop offset="1" stop-color="#a773ed"/>
+    </radialGradient>
+  </defs>
+  <path d="M14 22 38 9h68l24 13 7 29-13 41-30 23H50L20 92 7 51l7-29Z"
+    fill="url(#shell)" stroke="#dec7ff" stroke-width="4" stroke-linejoin="round"/>
+  <path d="M22 31h28L36 88l-12-10-2-47Zm100 0H94l14 57 12-10 2-47Z" fill="#4c356f" stroke="#b598ee" stroke-width="2"/>
+  <path d="M48 21h48l13 26-11 46-26 16-26-16-11-46 13-26Z" fill="#342750" stroke="#bda1f3" stroke-width="3"/>
+  <path d="M55 39h34l7 18-7 22-17 13-17-13-7-22 7-18Z" fill="#6e4da7"/>
+  <circle cx="72" cy="57" r="21" fill="url(#core)" stroke="#f7eaff" stroke-width="3"/>
+  <circle cx="72" cy="57" r="8" fill="#4a296e"/>
+  <path d="M14 48H3v26h18m109-26h11v26h-18" fill="#7c58b2" stroke="#e0c4ff" stroke-width="3" stroke-linejoin="round"/>
+  <path d="M3 73h18m102 0h18" stroke="#ff9fe3" stroke-width="5"/>
+  <path d="M51 100h14m14 0h14" stroke="#e7d6ff" stroke-width="4" stroke-linecap="round"/>
+</svg>

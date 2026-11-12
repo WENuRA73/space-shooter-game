@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Boss ship gallery</title>
+  <style>
+    body { margin: 0; background: #090d21; color: #e9f7ff; font: 16px Arial, sans-serif; }
+    header { padding: 22px 28px; background: #121c3a; border-bottom: 2px solid #30d9f3; }
+    h1 { margin: 0 0 8px; font-size: 28px; }
+    p { margin: 0; color: #a6c3db; }
+    main { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 18px; padding: 24px; }
+    article { background: #111a33; border: 1px solid #35506f; border-radius: 12px; overflow: hidden; }
+    .art { height: 220px; display: grid; place-items: center; background: #15223c;
+      background-image: linear-gradient(45deg,#1a2b45 25%,transparent 25%),linear-gradient(-45deg,#1a2b45 25%,transparent 25%),linear-gradient(45deg,transparent 75%,#1a2b45 75%),linear-gradient(-45deg,transparent 75%,#1a2b45 75%);
+      background-size: 22px 22px; background-position: 0 0,0 11px,11px -11px,-11px 0; }
+    img { max-width: 92%; max-height: 205px; object-fit: contain; transform: rotate(180deg); }
+    .meta { padding: 15px; }
+    h2 { margin: 0 0 7px; font-size: 19px; }
+    small { display: block; color: #a6c3db; margin: 4px 0; overflow-wrap: anywhere; }
+    a { color: #4ce8fc; }
+    .failed { color: #ff7777; }
+  </style>
+</head>
+<body>
+  <header><h1>Boss ship gallery</h1><p>All 10 supplied PNGs, rotated to face the player. Number and ZIP filename identify the source design.</p></header>
+  <main id="gallery"></main>
+  <script type="module" src="/src/bossGallery.js"></script>
+</body>
+</html>

@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="136" viewBox="0 0 128 136" fill="none">
+  <defs>
+    <linearGradient id="hull" x1="64" y1="6" x2="64" y2="125" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#124a78"/>
+      <stop offset="0.55" stop-color="#142c59"/>
+      <stop offset="1" stop-color="#081a37"/>
+    </linearGradient>
+    <linearGradient id="canopy" x1="53" y1="39" x2="77" y2="78" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#ffffff"/>
+      <stop offset="0.48" stop-color="#a4f6ff"/>
+      <stop offset="1" stop-color="#1782bb"/>
+    </linearGradient>
+    <linearGradient id="engine" x1="64" y1="105" x2="64" y2="133" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#ffffff"/>
+      <stop offset="0.4" stop-color="#42eeff"/>
+      <stop offset="1" stop-color="#00b7ff" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+
+  <path d="M54 109h20l-5 22H59l-5-22Z" fill="url(#engine)" opacity="0.8"/>
+  <path d="M64 5 80 36l19 23 17 46-8 13-25-10-9 18H54l-9-18-25 10-8-13 17-46 19-23L64 5Z"
+    fill="url(#hull)" stroke="#37ecff" stroke-width="3" stroke-linejoin="round"/>
+
+  <path d="M48 37 27 65 15 105l28-10 10-41-5-17Z" fill="#103e6b" stroke="#20cce8" stroke-width="2" stroke-linejoin="round"/>
+  <path d="m80 37 21 28 12 40-28-10-10-41 5-17Z" fill="#103e6b" stroke="#20cce8" stroke-width="2" stroke-linejoin="round"/>
+  <path d="m23 102 22-8-3 11-19 8-5-5 5-6Zm82 0-22-8 3 11 19 8 5-5-5-6Z" fill="#08d7f2"/>
+  <path d="M64 13 77 43l7 54-10 25H54L44 97l7-54 13-30Z"
+    fill="#0b2149" stroke="#8af5ff" stroke-width="2" stroke-linejoin="round"/>
+
+  <path d="M64 35c-9 0-15 11-15 24 0 12 7 22 15 22s15-10 15-22c0-13-6-24-15-24Z"
+    fill="url(#canopy)" stroke="#d8fcff" stroke-width="2"/>
+  <path d="M56 48c2-6 5-9 8-9" stroke="#ffffff" stroke-width="3" stroke-linecap="round" opacity="0.85"/>
+  <path d="M64 17v12M43 86l-12 7m54-7 12 7" stroke="#63efff" stroke-width="3" stroke-linecap="round"/>
+  <path d="M53 111h8l-2 10h-3l-3-10Zm14 0h8l-3 10h-3l-2-10Z" fill="#79f7ff"/>
+  <circle cx="31" cy="75" r="3" fill="#ffffff"/>
+  <circle cx="97" cy="75" r="3" fill="#ffffff"/>
+</svg>
